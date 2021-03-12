@@ -1,8 +1,29 @@
 .navbar {
-    background-color: #E53D00;
+    background-color: black;
     font-family: 'Roboto Mono', monospace;
 }
 
 .modal-header {
-    background-color: #E53D00;
+    color: white;
+    background-color: black;
+    font-family: 'Architects Daughter', cursive;
+    font-weight: bold;
+}
+
+.jumbotron {
+    margin: 0;
+    padding: 30px;
+    background-image: linear-gradient(to right, #8F55E5, #88A974, #85D33B);
+    color: white; 
+    font-family: 'Architects Daughter', cursive;
+    font-style: italic;
+    color: black;
+}
+
+.navbar-brand {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+h1 {
+    
 }

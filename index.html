@@ -11,8 +11,17 @@
     <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css"/>
     <link rel="stylesheet" href="css/styles.css"/>
 
+    <!--font-family: 'Roboto Mono', monospace;-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap" rel="stylesheet">
+
+    <!--font-family: 'Comic Neue', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue:wght@700&display=swap" rel="stylesheet">
+
+    <!--font-family: 'Architects Daughter', cursive;-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
 
     <title>Boucher's Comic Emporium</title>
 </head>
@@ -21,7 +30,9 @@
 
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="img/logo200.png" height="30" width="30"/></a>
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo200.png" height="50" width="50"/>
+                </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#emporiumNavbar">
                     <span class="navbar-toggler-icon"></span>
                 </button>
@@ -53,23 +64,17 @@
                         <form>
                             <div class="form-row">
                                 <div class="form-group col-12">
-                                    <label class="sr-only" for="loginEmail">Email Address</label>
-                                    <input type="email" class="form-control form-control-sm" id="loginEmail" placeholder="Enter email">
+                                    <label class="sr-only" for="newsletterEmail">Your Email</label>
+                                    <input type="email" class="form-control form-control-sm" id="newsletterEmail" placeholder="Your Email">
                                 </div>
                                 <div class="form-group col-12">
-                                    <label class="sr-only" for="loginPassword">Password</label>
-                                    <input type="password" class="form-control form-control-sm" id="loginPassword" placeholder="Password">
-                                </div>
-                                <div class="col">
-                                    <div class="form-check">
-                                        <input class="form-check-input" type="checkbox">
-                                        <label class="form-check-label"> Remember me</label>
-                                    </div>
+                                    <label class="sr-only" for="newsletterName">Your Name</label>
+                                    <input type="password" class="form-control form-control-sm" id="newsletterName" placeholder="Your Name">
                                 </div>
                             </div>
                             <div class="form-row">
                                 <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign In</button>
+                                <button type="submit" class="btn btn-primary btn-sm ml-1">Join</button>
                             </div>
                         </form>
                     </div>
@@ -78,8 +83,15 @@
         </div>
     </div>
 
-    <header>
-        <h1>Boucher's Comic Emporium!</h1>
+    <header class="jumbotron jumbotron-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 ">
+                    <h1>Boucher's Comic Emporium: </h1>
+                    <h4>Your One Stop Shop for Comics, Cards, and Collectibles</h3>
+                </div>
+            </div>
+        </div>
     </header>
 
     <footer>
