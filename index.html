@@ -31,7 +31,7 @@
     <nav class="navbar navbar-expand-md navbar-dark sticky-top">
         <div class="container-fluid">
                 <a class="navbar-brand" href="#">
-                    <img src="img/logo200.png" height="50" width="50"/>
+                    <img src="img/logo200.png" height="50" width="60"/>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#emporiumNavbar">
                     <span class="navbar-toggler-icon"></span>
@@ -53,10 +53,10 @@
     </nav>
 
     <div id="newsletterModal" class="modal fade" role="dialog">
-        <div class="modal-dialog" role="document">
+        <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
-                <div class="modal-header">
-                    <h3 class="modal-title">Newsletter Sign Up</h3>
+                <div class="modal-header bg-danger text-center">
+                    <h5 class="modal-title w-100"><strong>Newsletter Sign Up !</strong></h3>
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
@@ -69,12 +69,110 @@
                                 </div>
                                 <div class="form-group col-12">
                                     <label class="sr-only" for="newsletterName">Your Name</label>
-                                    <input type="password" class="form-control form-control-sm" id="newsletterName" placeholder="Your Name">
+                                    <input type="text" class="form-control form-control-sm" id="newsletterName" placeholder="Your Name">
                                 </div>
                             </div>
                             <div class="form-row">
-                                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
-                                <button type="submit" class="btn btn-primary btn-sm ml-1">Join</button>
+                                <div class="form-group col-4 align-left">
+                                    <strong>Choose Your Interests:</strong>
+                                </div>
+                                <div class="form-group col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="comicBooks" id="comicBooks">
+                                        <label class="form-check-label" for="comicBooks">Comic Books</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="graphicNovels" id="graphicNovels">
+                                        <label class="form-check-label" for="graphicNovels">Graphic Novels</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="funkoPops" id="funkPops">
+                                        <label class="form-check-label" for="funkoPops">Funko Pop!</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="statues" id="statues">
+                                        <label class="form-check-label" for="statues">Statues</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="actionFigures" id="actionFigures">
+                                        <label class="form-check-label" for="actionFigures">Action Figures</label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="cards" id="cards">
+                                        <label class="form-check-label" for="cards">Cards</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="dice" id="dice">
+                                        <label class="form-check-label" for="dice">Dice</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="signatures" id="signatures">
+                                        <label class="form-check-label" for="signatures">Signatures</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="vintage" id="vintage">
+                                        <label class="form-check-label" for="vintage">Vintage Items</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="events" id="events">
+                                        <label class="form-check-label" for="events">Special Events</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group col-4 align-left">
+                                    <strong>Choose Your Franchises:</strong>
+                                </div>
+                                <div class="form-group col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="marvel" id="marvel">
+                                        <label class="form-check-label" for="marvel">Marvel</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="dc" id="dc">
+                                        <label class="form-check-label" for="dc">DC</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="pokemon" id="pokemon">
+                                        <label class="form-check-label" for="pokemon">Pokemon</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="tMnT" id="tMnT">
+                                        <label class="form-check-label" for="tMnT">TMNT</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="videoGames" id="videoGames">
+                                        <label class="form-check-label" for="videoGames">Video Game Characters</label>
+                                    </div>
+                                </div>
+                                <div class="form-group col-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="starWars" id="starWars">
+                                        <label class="form-check-label" for="starWars">Star Wars</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="starTrek" id="starTrek">
+                                        <label class="form-check-label" for="starTrek">Star Trek</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="gundam" id="gundam">
+                                        <label class="form-check-label" for="gundam">Gundam</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="dNd" id="dNd">
+                                        <label class="form-check-label" for="dNd">D & D</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="magic" id="magic">
+                                        <label class="form-check-label" for="magic">Magic The Gathering</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <button type="button" class="btn btn-danger btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                <button type="submit" class="btn btn-success btn-sm ml-1">Join</button>
                             </div>
                         </form>
                     </div>
@@ -87,7 +185,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-12 ">
-                    <h1>Boucher's Comic Emporium: </h1>
+                    <h1><strong>Boucher's Comic Emporium: </strong></h1>
                     <h4>Your One Stop Shop for Comics, Cards, and Collectibles</h3>
                 </div>
             </div>
