@@ -43,3 +43,25 @@ h2 {
     padding: 20px 0; 
 }
 
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.8); }
+  
+.carousel {
+    border: solid black; 
+    margin-top: 25px;
+}
+  
+#carouselButton {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 100; 
+}
+
+.fa-arrow-left {
+    color: black;
+}
+
+.fa-arrow-right {
+    color: black;
+}
